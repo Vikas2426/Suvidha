@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("gif-heart-69.gif");
+  background-image: url("background.gif");
   background-size: 150% 150%;
 }
 
@@ -21,8 +21,9 @@ div {
   font-size: 1.7rem;
   max-width: 100%;
   text-shadow: 1.5px 0 0 rgb(255, 0, 0), -1.5px 0 0 rgb(56, 56, 56),
-    0 1px 0 rgb(250, 248, 142), 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff,
-    1px -1px 0 #fff, -1px 1px 0 #fff;
+    0 1px 0 rgb(255, 0, 0), 0 -1px 0 rgb(255, 0, 0), 1px 1px rgb(255, 0, 0),
+    -1px -1px 0 rgb(255, 0, 0), 1px -1px 0 rgb(255, 0, 0),
+    -1px 1px 0 rgb(255, 0, 0);
   font-weight: 200;
 }
 
@@ -32,4 +33,10 @@ h3 {
 
 h2 {
   margin-bottom: 5vh;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: url("gig.gif");
+  }
 }
