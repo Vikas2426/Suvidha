@@ -4,7 +4,7 @@ const msgContainer = document.createElement("h2");
 const wish = document.createElement("h3");
 
 const msgs = [
-  "Dearest Suvidha,",
+  "Dearest Shivani,",
   "On this day, I propose you and invite you to live in my heart forever. My feelings for you have only grown stronger since the day we first met. I want to seal our bond forever today.",
   "Happy Propose Day!",
 ];
