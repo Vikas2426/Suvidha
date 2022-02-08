@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0 5vw;
+  background-color: rgb(255, 192, 202);
+  min-height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("gif-heart-69.gif");
+  background-size: 150% 150%;
+}
+
+div {
+  color: rgb(255, 220, 220);
+  font-size: 1.7rem;
+  max-width: 100%;
+  text-shadow: 1.5px 0 0 rgb(255, 0, 0), -1.5px 0 0 rgb(56, 56, 56),
+    0 1px 0 rgb(250, 248, 142), 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff,
+    1px -1px 0 #fff, -1px 1px 0 #fff;
+  font-weight: 200;
+}
+
+h3 {
+  margin-bottom: 2vh;
+}
+
+h2 {
+  margin-bottom: 5vh;
+}
